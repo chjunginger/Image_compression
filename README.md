@@ -5,9 +5,5 @@ The amount of distinct colors (say n) to represent the entire image is prespecif
 K-Means finds clusters in which each pixels fall. The cluster-centroids will represent good approximations to each of the pixel values in the clusters.
 Each pixel is replaced by its cluster-centroid and the pixels are recomposed to an image and saved to file.
 
-I ran it on the tree.tiff image in the data folder. It's compressions for n=16 and n=256 colors are shown in there as well.
-
-tree_reduced_16 tree_reduced_265 tree
-
-The 16 color version is 375KB, the 265 color version 495KB and the original 1.9MB. Obviously not the most efficient way to compress pictures, but you can clearly see the difference in all three pictures - especially in the gradients of the clouds.
+An exemplary compression can be found on my blog (TBA.)
 
