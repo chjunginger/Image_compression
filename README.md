@@ -5,5 +5,5 @@ The amount of distinct colors (say n) to represent the entire image is prespecif
 K-Means finds clusters in which each pixels fall. The cluster-centroids will represent good approximations to each of the pixel values in the clusters.
 Each pixel is replaced by its cluster-centroid and the pixels are recomposed to an image and saved to file.
 
-An exemplary compression can be found on my blog (TBA.)
+An exemplary compression can be found on my blog (https://muchodata.wordpress.com/2015/03/16/using-k-means-to-compress-an-image/)
 
