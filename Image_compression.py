@@ -29,10 +29,9 @@ Clust=MiniBatchKMeans(n_clusters=n,compute_labels=True,)
 Clust.fit(pixmap)
 centers=Clust.cluster_centers_.astype(int)
 centers=tuple([tuple(row) for row in centers])
-labels=np.array(Clust.labels_)
 
 #built reduced pixelmatrix
-pixmap_red=[centers[i] for i in labels]
+pixmap_red=[centers[i] for i in Clust.labels_]
 
 #Output reduced image
 out=Image.new("RGB",aspect)
